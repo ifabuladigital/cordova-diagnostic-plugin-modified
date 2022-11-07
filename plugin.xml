@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova.plugins.diagnostic"
+    id="cordova.plugins.diagnostic-modified"
     version="6.0.4">
 
     <name>Diagnostic</name>
@@ -14,7 +14,7 @@
         <engine name="cordova-android" version=">=8.0.0"/>
         <engine name="cordova-ios" version=">=5.0.0"/>
     </engines>
-    <repo>https://github.com/aliitotz/cordova-diagnostic-plugin.git</repo>
+    <repo>https://github.com/ifabuladigital/cordova-diagnostic-plugin-modified.git</repo>
     <issue>https://github.com/aliitotz/cordova-diagnostic-plugin/issues</issue>
 
     <platform name="ios">
@@ -49,7 +49,7 @@
 
         <framework src="CoreLocation.framework" />
 
-        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" comment="Default usage descriptions: override as necessary in .plist">
+<!--         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" comment="Default usage descriptions: override as necessary in .plist">
             <string>This app requires access to your location when the screen is on and the app is displayed.</string>
         </config-file>
 
@@ -60,7 +60,7 @@
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" comment="iOS 10">
             <string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>
         </config-file>
-        <!--END_MODULE LOCATION-->
+        <!--END_MODULE LOCATION--> -->
 
         <!--BEGIN_MODULE BLUETOOTH-->
         <config-file target="config.xml" parent="/*">
